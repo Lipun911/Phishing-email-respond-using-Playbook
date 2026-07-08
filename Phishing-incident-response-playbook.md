@@ -65,7 +65,6 @@ Include a brief summary of your investigation findings and the reason why you've
 
 ## Phishing Flowchart (Version 1.0) 
 
-![Phishing Incident Response Flowchart](<img width="975" height="1211" alt="image" src="https://github.com/user-attachments/assets/9709bb14-4a34-42b3-95d7-904211b25f71" />
-)
+![Phishing Incident Response Flowchart](https://github.com/user-attachments/assets/9709bb14-4a34-42b3-95d7-904211b25f71)
 
 The flowchart above illustrates the complete incident response workflow for handling phishing alerts. Follow the decision points and steps as outlined to ensure consistent and effective response procedures.

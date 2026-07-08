@@ -1,0 +1,19 @@
+title: Suspicious phishing attachment - Flagpro
+id: 9d1b7e2f-0000-4abc-9f1a-000000000001
+status: experimental
+description: Detect emails with known Flagpro hash or suspicious attachment filename
+author: repo-contrib
+references:
+  - https://www.virustotal.com/
+date: 2026/07/08
+logsource:
+  product: email
+  service: mail
+detection:
+  selection:
+    - file.hash.sha256: '54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b'
+    - attachment.filename|contains: 'bfsvc.exe'
+  condition: selection
+falsepositives:
+  - legitimate developer/test emails with sample files
+level: medium

@@ -4,15 +4,15 @@
 
 ## Purpose
 
-To help level-one SOC analysts provide an appropriate and timely response to a phishing incident 
+To help level-one SOC analysts provide an appropriate and timely response to a phishing incident
 
 ## Using this playbook 
 
-Follow the steps in this playbook in the order in which they are listed. Note that steps may overlap. 
+Follow the steps in this playbook in the order in which they are listed. Note that steps may overlap.
 
 ## Step 1: Receive phishing alert 
 
-The process begins when you receive an alert ticket indicating that a phishing attempt has been detected. 
+The process begins when you receive an alert ticket indicating that a phishing attempt has been detected.
 
 ## Step 2: Evaluate the alert 
 
@@ -44,15 +44,15 @@ Upon receiving the alert, investigate the alert details and any relevant log inf
 
 ## Step 3.0: Does the email contain any links or attachments? 
 
-Phishing emails can contain malicious attachments or links that are attempting to gain access to systems. After examining the details of the alert, determine whether the email contains any links or attachments. 
+Phishing emails can contain malicious attachments or links that are attempting to gain access to systems. After examining the details of the alert, determine whether the email contains any links or attachments.
 
 ## Step 3.1: Are the links or attachments malicious? 
 
-Once you've identified that the email contains attachments or links, determine whether the links or attachments are malicious. Check the reputation of the link or file attachment through its hash value using threat intelligence platforms. 
+Once you've identified that the email contains attachments or links, determine whether the links or attachments are malicious. Check the reputation of the link or file attachment through its hash and reputation sources. Use VirusTotal, internal hash databases, and sandbox analysis where available.
 
 ## Step 3.2: Update the alert ticket and escalate 
 
-If you've confirmed that the link or attachment is **malicious**, provide a summary of your findings and the reason you are escalating the ticket. Update the ticket status to **Escalated** and notify the appropriate team members. 
+If you've confirmed that the link or attachment is **malicious**, provide a summary of your findings and the reason you are escalating the ticket. Update the ticket status to **Escalated** and note the IOCs and recommended containment steps. Provide clear next steps for Level-2 analysts and remediation teams.
 
 ## Step 4: Close the alert ticket 
 
@@ -65,6 +65,8 @@ Include a brief summary of your investigation findings and the reason why you've
 
 ## Phishing Flowchart (Version 1.0) 
 
-![Phishing Incident Response Flowchart](https://github.com/user-attachments/assets/9709bb14-4a34-42b3-95d7-904211b25f71)
+![Phishing Incident Response Flowchart](assets/flowchart.svg)
 
 The flowchart above illustrates the complete incident response workflow for handling phishing alerts. Follow the decision points and steps as outlined to ensure consistent and effective response procedures.
+
+> Note: This repository has been updated to remove any direct passwords and real samples from public files. See SAFETY.md for guidance about handling artifacts and sensitive data.

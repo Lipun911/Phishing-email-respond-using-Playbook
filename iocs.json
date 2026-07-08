@@ -1,0 +1,27 @@
+[
+  {
+    "type": "file_hash",
+    "value": "54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b",
+    "description": "Known malicious Flagpro sample hash (documented in repo)"
+  },
+  {
+    "type": "sender_domain",
+    "value": "76tguyhh6tgftrt7tg.su",
+    "description": "Suspicious sender domain reported in ticket"
+  },
+  {
+    "type": "sender_ip",
+    "value": "114.114.114.114",
+    "description": "Sender IP recorded in alert"
+  },
+  {
+    "type": "recipient_email",
+    "value": "hr@inergy.com",
+    "description": "Recipient address from ticket"
+  },
+  {
+    "type": "attachment_filename",
+    "value": "bfsvc.exe",
+    "description": "Attachment filename reported in ticket"
+  }
+]

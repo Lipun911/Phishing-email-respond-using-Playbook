@@ -1,0 +1,6 @@
+type,value,description
+file_hash,54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b,Known malicious Flagpro sample hash (documented in repo)
+sender_domain,76tguyhh6tgftrt7tg.su,Suspicious sender domain reported in ticket
+sender_ip,114.114.114.114,Sender IP recorded in alert
+recipient_email,hr@inergy.com,Recipient address from ticket
+attachment_filename,bfsvc.exe,Attachment filename reported in ticket
